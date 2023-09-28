@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 40%;
+}
+
+footer {
+    float: right;
+    color: #b70001;
+}
+
+#titleBar {
+    background-color: black;
+    display: block;
+    text-align: right;
+    padding: 1%;
+}
+
+#titleBar > a {
+    color: white;
+    text-decoration: none;
+}
+
+#headSection {
+    height: 35%;
+    font-size: 0.9em;
+    color: gray;
+    background-image: url(assets/header_bg.png);
+    background-size: contain;
+    text-align: right;
+    padding: 4% 5% 0 0;
+}
+
+#loginRegister > a {
+    color: #b70001;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#loginRegister > a > img {
+    width: 1.5vw;
+    height: auto;
+}
+
+#bodySection {
+    background-image: url(assets/background.png);
+    height: 100%;
+    padding: 5%;
+}
